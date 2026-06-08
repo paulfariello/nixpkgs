@@ -13,13 +13,13 @@
 
 buildPythonPackage rec {
   pname = "mempalace";
-  version = "3.3.3";
+  version = "3.3.5";
   pyproject = true;
   __structuredAttrs = true;
 
   src = fetchPypi {
     inherit pname version;
-    hash = "sha256-ttMVcabQIb7kKOQBmO61xXQohfsXLSSDvbtjoaFFhIc=";
+    hash = "sha256-b/dPIvy4AXSXB96jH896GQO9rJRBHnN2UgA6s2LTyo4=";
   };
 
   build-system = [ hatchling ];
